@@ -1,7 +1,7 @@
 # fineng
-Financial Engineering Project
 
-Este documento tem como objetivo auxiliar a aplicação das funções do respositório fineng. Recomenda-se o uso de Jupyter Notebook
+Financial Engineering personal project from 2019.
+
 
 ### Instalação de dependências e preparação
 
