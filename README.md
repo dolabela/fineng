@@ -1,6 +1,6 @@
 # fineng
 
-Financial Engineering personal project from 2019.
+Financial Engineering personal project from 2019 migrated from another repository.
 
 
 ### Instalação de dependências e preparação
