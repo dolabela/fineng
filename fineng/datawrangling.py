@@ -83,28 +83,6 @@ def get_sp500(symbol="^GSPC"):
     return df.iloc[1:]
 
 
-def get_tyde():
-    """Organiza os retornos do benchmark Tyde
-
-    Returns:
-        DataFrame -- Dataframe contendo Retorno de fechamento.
-    """
-
-    # Carrega os retornos acumulados no CSV fornecido
-    benchmark_tyde = pd.read_csv(
-        os.path.join("dataset", "tyde", "portReturns.csv"), names=["Date", "Return"]
-    )
-    aux = pd.DataFrame.from_dict({"Date": ["2014-01-01"], "Return": [0]})
-    benchmark_tyde = pd.concat([aux, benchmark_tyde])
-
-    # Transforma os retornos acumulados em retorno
-    benchmark_tyde = benchmark_tyde.set_index("Date")
-    benchmark_tyde = benchmark_tyde + 1
-    benchmark_tyde = benchmark_tyde.pct_change()
-    log("Tyde returns obtained")
-
-    return benchmark_tyde.iloc[1:]
-
 
 def save_to_pickle(path, variables):
     """Salva variáveis em arquivo .pickle

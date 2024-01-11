@@ -5,7 +5,7 @@ Este documento tem como objetivo auxiliar a aplicação das funções do resposi
 
 ### Instalação de dependências e preparação
 
-Inicialmente, deverão ser adicionados os dados de input para serem testados. Todas ações deverão ser adicionadas ao caminho `dataset/stocks`. Além disso, o `.csv` do portfólio de refência deverá ser adicionado à pasta `dataset/tyde`.
+Inicialmente, deverão ser adicionados os dados de input para serem testados. Todas ações deverão ser adicionadas ao caminho `dataset/stocks`. Além disso, o `.csv` do portfólio de refência deverá ser adicionado à pasta `dataset/benchmark`.
 
 
 Depois  devem ser instaladas as dependências do projeto. Isso pode ser feito por meio do comando
@@ -21,12 +21,12 @@ As ações a partir da função merge_csv_to_df() contida em fineng/datawranglin
 
 Os retornos do índice S&P500 foram obtidos por meio da função get_sp500, que puxou esses dados do Yahoo! Finance e calculou o seu retorno.
 
-Os retornos do portfólio de refência foram obtidos por meio da transformação do seu CSV contendo o seu retorno acumulado. Esses dados foram processados por meio da função get_tyde.
+Os retornos do portfólio de refência foram obtidos por meio da transformação do seu CSV contendo o seu retorno acumulado.
 
 Por último, estes Dataframes devem ser transformados em uma classe chamada Benchmark a fim de padronizar com o resto do trabalho e salvas em um arquivo no formato Pickle
 
 ```python
-from fineng.datawrangling import merge_csv_to_df, get_sp500, get_tyde, save_to_pickle,  return_from_pickle
+from fineng.datawrangling import merge_csv_to_df, get_sp500, save_to_pickle,  return_from_pickle
 import os 
 from fineng.strategy import Benchmark
 from fineng.datawrangling import save_to_pickle
@@ -35,15 +35,13 @@ prices = merge_csv_to_df()
 returns = prices.pct_change()
 
 benchmark_sp500 =  get_sp500()
-benchmark_tyde = get_tyde()
 
 b_sp500 = Benchmark(benchmark_sp500, name = 'S&P 500')
 
-b_tyde = Benchmark(benchmark_tyde, name = 'Tyde')
 
 
 save_to_pickle(path = os.path.join('dataset','processed', "data_input.pickle"),
-               variables = [returns,b_sp500, b_tyde]
+               variables = [returns,b_sp500]
               )
 
 ```
@@ -54,7 +52,7 @@ Posteriormente esses dados podem ser acessados por meio do seguinte comando:
 from fineng.datawrangling import return_from_pickle
 import os 
 
-returns ,b_sp500, b_tyde = return_from_pickle(path = os.path.join('dataset','processed', "data_input.pickle"))
+returns ,b_sp500 = return_from_pickle(path = os.path.join('dataset','processed', "data_input.pickle"))
 
 
 ```
@@ -141,7 +139,7 @@ max_sharpe_05 = Strategy(method = 'max_sharpe',
 max_return1 = Strategy(method = 'max_return1',
                         name = 'Max Return 1',
                         rets = returns,
-                        args = b_tyde.strategy_ret,
+                        args = b_sp500.strategy_ret,
                         time_is = 12, 
                         time_os = 3, 
                         max_w= 0.05,
@@ -169,7 +167,7 @@ Os portfólios podem ser acessados por meio da seguinte função:
 
 ```python
 
-analysis.compare_strategies([equally_weighted, max_sharpe_10, max_sharpe_05, max_return1, min_vol_p], benchmark=b_tyde)
+analysis.compare_strategies([equally_weighted, max_sharpe_10, max_sharpe_05, max_return1, min_vol_p], benchmark=b_sp500)
 
 ```
 
@@ -177,14 +175,14 @@ As estratégias podem ser analisadas de forma comparativa utilizando a seguinte 
 
 ```python
 
-analysis.compare_strategies([equally_weighted, max_sharpe_10, max_sharpe_05, max_return1, min_vol_p], benchmark=b_tyde)
+analysis.compare_strategies([equally_weighted, max_sharpe_10, max_sharpe_05, max_return1, min_vol_p], benchmark=b_sp500)
 
 ```
 
 Além disso, podem ser individualmente analisadas de forma mais detalhadas:
 
 ```python
-analysis.analyse_strategy(max_sharpe10, benchmark=b_tyde, show_weight=True)
+analysis.analyse_strategy(max_sharpe10, benchmark=b_sp500, show_weight=True)
 ```
 
 ### Módulos do repositório
