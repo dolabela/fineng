@@ -1,0 +1,89 @@
+date;type;id;text
+2019-12-12 19:35:20;start;1;Defining Variables.
+2019-12-12 19:35:20;finish;1;Defining Variables.
+2019-12-12 19:35:20;start;2;Generating dates and filtering returns.
+2019-12-12 19:35:20;finish;2;Generating dates and filtering returns.
+2019-12-12 19:35:20;start;3;Calculating weights from 40 periods
+2019-12-12 19:35:20;start;4;Calculating portfolio weights from 2008-01-01 to 2008-12-31
+2019-12-12 19:35:20;start;4;Calculating portfolio weights from 2008-04-01 to 2009-03-31
+2019-12-12 19:35:20;start;4;Calculating portfolio weights from 2008-07-01 to 2009-06-30
+2019-12-12 19:35:20;start;4;Calculating portfolio weights from 2008-10-01 to 2009-09-30
+2019-12-12 19:35:20;start;4;Calculating portfolio weights from 2009-01-01 to 2009-12-31
+2019-12-12 19:35:20;start;4;Calculating portfolio weights from 2009-04-01 to 2010-03-31
+2019-12-12 19:35:20;start;4;Calculating portfolio weights from 2009-07-01 to 2010-06-30
+2019-12-12 19:35:20;start;4;Calculating portfolio weights from 2009-10-01 to 2010-09-30
+2019-12-12 19:35:20;start;4;Calculating portfolio weights from 2010-01-01 to 2010-12-31
+2019-12-12 19:35:20;start;4;Calculating portfolio weights from 2010-04-01 to 2011-03-31
+2019-12-12 19:35:20;start;4;Calculating portfolio weights from 2010-07-01 to 2011-06-30
+2019-12-12 19:35:21;start;4;Calculating portfolio weights from 2010-10-01 to 2011-09-30
+2019-12-12 19:38:51;finish;4;Calculating portfolio weights from 2009-01-01 to 2009-12-31
+2019-12-12 19:38:51;start;4;Calculating portfolio weights from 2011-01-01 to 2011-12-31
+2019-12-12 19:38:54;finish;4;Calculating portfolio weights from 2008-10-01 to 2009-09-30
+2019-12-12 19:38:54;start;4;Calculating portfolio weights from 2011-04-01 to 2012-03-31
+2019-12-12 19:38:59;finish;4;Calculating portfolio weights from 2009-04-01 to 2010-03-31
+2019-12-12 19:38:59;start;4;Calculating portfolio weights from 2011-07-01 to 2012-06-30
+2019-12-12 19:39:18;finish;4;Calculating portfolio weights from 2010-04-01 to 2011-03-31
+2019-12-12 19:39:18;start;4;Calculating portfolio weights from 2011-10-01 to 2012-09-30
+2019-12-12 19:39:19;finish;4;Calculating portfolio weights from 2009-10-01 to 2010-09-30
+2019-12-12 19:39:19;start;4;Calculating portfolio weights from 2012-01-01 to 2012-12-31
+2019-12-12 19:39:27;finish;4;Calculating portfolio weights from 2010-10-01 to 2011-09-30
+2019-12-12 19:39:27;start;4;Calculating portfolio weights from 2012-04-01 to 2013-03-31
+2019-12-12 19:40:00;finish;4;Calculating portfolio weights from 2008-04-01 to 2009-03-31
+2019-12-12 19:40:00;start;4;Calculating portfolio weights from 2012-07-01 to 2013-06-30
+2019-12-12 19:40:39;finish;4;Calculating portfolio weights from 2010-07-01 to 2011-06-30
+2019-12-12 19:40:39;start;4;Calculating portfolio weights from 2012-10-01 to 2013-09-30
+2019-12-12 19:40:42;finish;4;Calculating portfolio weights from 2009-07-01 to 2010-06-30
+2019-12-12 19:40:42;start;4;Calculating portfolio weights from 2013-01-01 to 2013-12-31
+2019-12-12 19:40:47;finish;4;Calculating portfolio weights from 2010-01-01 to 2010-12-31
+2019-12-12 19:40:47;start;4;Calculating portfolio weights from 2013-04-01 to 2014-03-31
+2019-12-12 19:41:03;finish;4;Calculating portfolio weights from 2008-01-01 to 2008-12-31
+2019-12-12 19:41:03;start;4;Calculating portfolio weights from 2013-07-01 to 2014-06-30
+2019-12-12 19:41:13;finish;4;Calculating portfolio weights from 2008-07-01 to 2009-06-30
+2019-12-12 19:41:13;start;4;Calculating portfolio weights from 2013-10-01 to 2014-09-30
+2019-12-12 19:43:03;finish;4;Calculating portfolio weights from 2011-04-01 to 2012-03-31
+2019-12-12 19:43:03;start;4;Calculating portfolio weights from 2014-01-01 to 2014-12-31
+2019-12-12 19:43:04;finish;4;Calculating portfolio weights from 2011-01-01 to 2011-12-31
+2019-12-12 19:43:04;start;4;Calculating portfolio weights from 2014-04-01 to 2015-03-31
+2019-12-12 19:43:07;finish;4;Calculating portfolio weights from 2011-07-01 to 2012-06-30
+2019-12-12 19:43:07;start;4;Calculating portfolio weights from 2014-07-01 to 2015-06-30
+2019-12-12 19:43:42;finish;4;Calculating portfolio weights from 2011-10-01 to 2012-09-30
+2019-12-12 19:43:42;start;4;Calculating portfolio weights from 2014-10-01 to 2015-09-30
+2019-12-12 19:43:48;finish;4;Calculating portfolio weights from 2012-04-01 to 2013-03-31
+2019-12-12 19:43:48;start;4;Calculating portfolio weights from 2015-01-01 to 2015-12-31
+2019-12-12 19:44:17;finish;4;Calculating portfolio weights from 2012-07-01 to 2013-06-30
+2019-12-12 19:44:17;start;4;Calculating portfolio weights from 2015-04-01 to 2016-03-31
+2019-12-12 19:44:53;finish;4;Calculating portfolio weights from 2012-10-01 to 2013-09-30
+2019-12-12 19:44:54;start;4;Calculating portfolio weights from 2015-07-01 to 2016-06-30
+2019-12-12 19:45:00;finish;4;Calculating portfolio weights from 2012-01-01 to 2012-12-31
+2019-12-12 19:45:00;start;4;Calculating portfolio weights from 2015-10-01 to 2016-09-30
+2019-12-12 19:45:01;finish;4;Calculating portfolio weights from 2013-01-01 to 2013-12-31
+2019-12-12 19:45:01;start;4;Calculating portfolio weights from 2016-01-01 to 2016-12-31
+2019-12-12 19:46:36;finish;4;Calculating portfolio weights from 2013-04-01 to 2014-03-31
+2019-12-12 19:46:36;start;4;Calculating portfolio weights from 2016-04-01 to 2017-03-31
+2019-12-12 19:47:05;finish;4;Calculating portfolio weights from 2013-07-01 to 2014-06-30
+2019-12-12 19:47:05;start;4;Calculating portfolio weights from 2016-07-01 to 2017-06-30
+2019-12-12 19:47:37;finish;4;Calculating portfolio weights from 2014-07-01 to 2015-06-30
+2019-12-12 19:47:37;start;4;Calculating portfolio weights from 2016-10-01 to 2017-09-30
+2019-12-12 19:48:29;finish;4;Calculating portfolio weights from 2015-01-01 to 2015-12-31
+2019-12-12 19:48:29;start;4;Calculating portfolio weights from 2017-01-01 to 2017-12-31
+2019-12-12 19:48:56;finish;4;Calculating portfolio weights from 2015-04-01 to 2016-03-31
+2019-12-12 19:48:56;start;4;Calculating portfolio weights from 2017-04-01 to 2018-03-31
+2019-12-12 19:49:10;finish;4;Calculating portfolio weights from 2014-04-01 to 2015-03-31
+2019-12-12 19:49:10;start;4;Calculating portfolio weights from 2017-07-01 to 2018-06-30
+2019-12-12 19:49:34;finish;4;Calculating portfolio weights from 2015-07-01 to 2016-06-30
+2019-12-12 19:49:34;start;4;Calculating portfolio weights from 2017-10-01 to 2018-09-30
+2019-12-12 19:49:47;finish;4;Calculating portfolio weights from 2014-10-01 to 2015-09-30
+2019-12-12 19:50:11;finish;4;Calculating portfolio weights from 2013-10-01 to 2014-09-30
+2019-12-12 19:50:34;finish;4;Calculating portfolio weights from 2014-01-01 to 2014-12-31
+2019-12-12 19:51:19;finish;4;Calculating portfolio weights from 2015-10-01 to 2016-09-30
+2019-12-12 19:54:30;finish;4;Calculating portfolio weights from 2016-04-01 to 2017-03-31
+2019-12-12 19:54:54;finish;4;Calculating portfolio weights from 2016-07-01 to 2017-06-30
+2019-12-12 19:55:22;finish;4;Calculating portfolio weights from 2017-07-01 to 2018-06-30
+2019-12-12 19:55:49;finish;4;Calculating portfolio weights from 2017-10-01 to 2018-09-30
+2019-12-12 19:55:50;finish;4;Calculating portfolio weights from 2016-01-01 to 2016-12-31
+2019-12-12 19:56:40;finish;4;Calculating portfolio weights from 2017-04-01 to 2018-03-31
+2019-12-12 19:58:13;finish;4;Calculating portfolio weights from 2016-10-01 to 2017-09-30
+2019-12-12 19:58:58;finish;4;Calculating portfolio weights from 2017-01-01 to 2017-12-31
+2019-12-12 19:58:59;finish;3;Calculating weights from 40 periods
+2019-12-12 19:58:59;start;5;Simulating Strategy
+2019-12-12 19:59:09;finish;5;Simulating Strategy
